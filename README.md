@@ -1,0 +1,1 @@
+Esse repositório é sobre alguns projetos e exercícios pessoais que estou fazendo agora que estou voltando a estudar programação. São projetos pequenos e não muito complexos, mas pretendo evoluir de forma constante até que possa criar projetos mais sérios e complexos.
