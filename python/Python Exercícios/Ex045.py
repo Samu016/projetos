@@ -1,5 +1,5 @@
 import random, uteis
-uteis.titulo('JOKENPÔ', 12)
+uteis.titulo('JOKENPÔ')
 
 opcao = int(input("""ESCOLHA UMA DAS OPÇÕES:
 PEDRA [0]

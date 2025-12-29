@@ -1,6 +1,6 @@
 import uteis
 from datetime import date
-uteis.titulo('CLASSIFICAÇÃO DE CATEGORIA',7)
+uteis.titulo('CLASSIFICAÇÃO DE CATEGORIA')
 
 ano = int(input('\033[33mQual o ano do seu nascimento? \033[m'))
 hoje = date.today().year

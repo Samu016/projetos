@@ -1,5 +1,5 @@
 import uteis
-uteis.titulo('PAGAMENTO', 14)
+uteis.titulo('PAGAMENTO')
 
 preco = float(input('Informe o preço do produto: '))
 pagamento = int(input("""Informe a forma de pagamento: 
