@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Desafio 02</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das imagens</h1>
+    <p>
+        Utilize a tag &lt;picture&gt; para exibir uma imagem diferente conforme o tamanho da tela do dispositivo.
+    </p>
+    <picture>
+        <source media="(max-width: 400px)" srcset="img/github-p.png" type="image/png">
+        <source media="(max-width: 600px)" srcset="img/github-m.png" type="image/png">
+        <img src="img/github-g.png" alt="imagem flexível">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 15px;
+    padding: 0;
+}
+#mapa-mundi img{
+    padding: 0%;
+    margin: 0%;
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+}
