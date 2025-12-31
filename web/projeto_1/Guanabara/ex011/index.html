@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mídias em HTML5</title>
+  </head>
+  <body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir essas imagens em vários dispositivos</p>
+    <picture>
+      <source
+        media="(max-width: 600px)"
+        srcset="imagens/foto-p.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagens/foto-m.png"
+        type="image/png"
+      />
+      <img src="imagens/foto-g.png" alt="imagem flexível" />
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <audio controls loop preload="metadata">
+      <source src="midia/ex020.wav" type="audio/wav" />
+      <source src="midia/ex011.mp3" type="audio/mpeg" />
+      <p>Seu navegador não suporta o elemento de áudio.</p>
+    </audio>
+    <h1>Reproduzindo Vídeos</h1>
+    <p>Video hospedado localmente</p>
+    <video width="320" height="240" controls loop preload="metadata">
+      <source src="midia/teste.mp4" type="video/mp4"/>
+    </video>
+    <p>Video hospedado externamente</p>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/YzTrr0lWoBs" title="Song: MONTAGEM PERIGOSA - KVRXD, SEKIMANE, Dj Samir #phonk #brazilianfunk #nanatsunotaizai #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </body>
+</html>
